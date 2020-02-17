@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="16869" started-at="2020-01-26T20:45:00Z" finished-at="2020-01-26T20:45:16Z">
+    <groups>
+    </groups>
+    <test name="My Functional Regression Test" duration-ms="16869" started-at="2020-01-26T20:45:00Z" finished-at="2020-01-26T20:45:16Z">
+      <class name="MyTests.LoginPageTest_Case2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MyTests.LoginPageTest_Case2@7d9d1a19]" name="setUp" is-config="true" duration-ms="2155" started-at="2020-01-26T20:45:00Z" finished-at="2020-01-26T20:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MyTests.GoogleTest@4883b407]" name="setUp" is-config="true" duration-ms="7703" started-at="2020-01-26T20:45:02Z" finished-at="2020-01-26T20:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyTests.LoginPageTest_Case2@7d9d1a19]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-01-26T20:45:16Z" finished-at="2020-01-26T20:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyTests.GoogleTest@4883b407]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-01-26T20:45:16Z" finished-at="2020-01-26T20:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyTests.LoginPageTest_Case2 -->
+      <class name="TestNGSessions.PriorityConcept">
+        <test-method status="PASS" signature="test4()[pri:0, instance:TestNGSessions.PriorityConcept@1794d431]" name="test4" duration-ms="4" started-at="2020-01-26T20:45:09Z" finished-at="2020-01-26T20:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- TestNGSessions.PriorityConcept -->
+      <class name="MyTests.LoginPageTest_Case1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MyTests.LoginPageTest_Case1@39c0f4a]" name="setUp" is-config="true" duration-ms="1726" started-at="2020-01-26T20:45:09Z" finished-at="2020-01-26T20:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:MyTests.LoginPageTest_Case1@39c0f4a]" name="verifyTitleTest" duration-ms="4975" started-at="2020-01-26T20:45:11Z" finished-at="2020-01-26T20:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyTests.LoginPageTest_Case1@39c0f4a]" name="tearDown" is-config="true" duration-ms="103" started-at="2020-01-26T20:45:16Z" finished-at="2020-01-26T20:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyTests.LoginPageTest_Case1 -->
+    </test> <!-- My Functional Regression Test -->
+  </suite> <!-- My Test Suite -->
+</testng-results>
